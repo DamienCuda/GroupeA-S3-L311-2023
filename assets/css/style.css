@@ -1,13 +1,18 @@
+:root{
+    --cl-green: #177a73;
+    --cl-text: #F0F1D5;
+}
+
 html, body{
     margin:0;
     padding: 0;
-    font-family: "Aldrich";
+    font-family: "Aldrich", sans-serif;
     font-size: 12px;
     height:100%;
-    color: #F0F1D5;
-    background-color: transparent;
+    color: var(--cl-text);
+    background-color: var(--cl-green);
 }
-#wrappr{
+#wrapper{
     display:flex;
     justify-content:center;
     align-items:center;
@@ -17,11 +22,8 @@ html, body{
     font-weight: bold;
     font-size: 75px;
 }
-.timer span::after{
+.timer span:not(:last-child):after{
     content: " : ";
-}
-.timer span:last-child::after{
-    content: "";
 }
 .controls{
     text-align: center;
@@ -30,9 +32,9 @@ html, body{
     box-sizing: border-box;
     height: 74px;
     background-color: transparent;
-    border-color: transparent transparent transparent #F0F1D5;
+    border-color: transparent transparent transparent var(--cl-text);
     transition: 100ms all ease;
-    will-change: border-width;
+    will-change: contents;
     cursor: pointer;
     border-style: solid;
     border-width: 37px 0 37px 60px;
