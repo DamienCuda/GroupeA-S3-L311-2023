@@ -1,6 +1,6 @@
 <!-- ETAPE DE DEBUG -->
-<!-- 1  Reformatage du code HTML correction erreur de visu via CTRL+U-->
-<!-- 2 -->
+<!-- 1 CTRL+U : Reformatage du code HTML cf commentaire-->
+<!-- 2 Réseau : appel CSS et Google Font érronés-->
 <!DOCTYPE html>
 <html>
     <head>
@@ -16,8 +16,10 @@
         <script src="assets/js/script.js"></script>
     </head>
     <body>
+        <!-- ID wrapepr mal orthographié -->
         <div id="wrapper">
             <div class="inside">
+                <!-- ID wraper en double -->
                 <div class="timer">
                     <span id="hours">00</span>
                     <span id="minutes">00</span>
