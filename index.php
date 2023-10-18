@@ -1,5 +1,5 @@
 <!-- ETAPE DE DEBUG -->
-<!-- 1  Reformatage du code-->
+<!-- 1  Reformatage du code HTML correction erreur de visu via CTRL+U-->
 <!-- 2 -->
 <!DOCTYPE html>
 <html>
@@ -14,7 +14,7 @@
     </head>
     <body>
         <div id="wrapper">
-            <div class="inside" id="wrapper">
+            <div class="inside">
                 <div class="timer">
                     <span id="hours">00</span>
                     <span id="minutes">00</span>
