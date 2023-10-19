@@ -1,12 +1,14 @@
 window.addEventListener("DOMContentLoaded", (event) => {
   //ERREUR : true sous forme de string au lieu de bool
+  // Variable de vérification d'état Play/Pause
   let is_run = true;
 
   init();
 
-  //ERREUR : Mauvaise indentation et clic au lieu de click et acollades manquantes
+  //ERREUR : Mauvaise indentation, clic au lieu de click, acollades manquantes pour la fonction passage d'arguments inutiles
+  // Fonction de gestion du play/pause via la class pause
   function init() {
-    document.querySelector(".button").addEventListener("click",(event) => {
+    document.querySelector(".button").addEventListener("click",() => {
         is_run = !is_run;
         ((document.querySelector(".button").className + " ").indexOf("pause") > -1)
         ? document.querySelector(".button").setAttribute("class", document.querySelector(".button").getAttribute("class").replace(" pause", ""))
@@ -16,6 +18,7 @@ window.addEventListener("DOMContentLoaded", (event) => {
   }
 
   //ERREUR : Adaptation pour plus de lisibilité
+  //Fonction qui réfraichi le timer si la variable is_run est true 
   setInterval(function () {
     // Si la is run est a true l'horloge tourne
     if (is_run) {

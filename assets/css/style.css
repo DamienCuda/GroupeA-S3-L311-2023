@@ -1,33 +1,42 @@
-:root{
+/* Définition de variables globales pour les couleurs */
+:root {
     --cl-green: #177a73;
     --cl-text: #F0F1D5;
 }
 
-html, body{
-    margin:0;
+html,
+body {
+    margin: 0;
     padding: 0;
     font-family: "Aldrich", sans-serif;
     font-size: 12px;
-    height:100%;
+    height: 100%;
     color: var(--cl-text);
     background-color: var(--cl-green);
 }
-#wrapper{
-    display:flex;
-    justify-content:center;
-    align-items:center;
+
+#wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 100%;
 }
-.inside{
+
+.inside {
     font-weight: bold;
     font-size: 75px;
 }
-.timer span:not(:last-child):after{
+
+/* Séparation des éléments du timer sauf dernier */
+.timer span:not(:last-child):after {
     content: " : ";
 }
-.controls{
+
+/* Bouton de Pause/Play */
+.controls {
     text-align: center;
 }
+
 .controls button {
     box-sizing: border-box;
     height: 74px;
@@ -39,7 +48,8 @@ html, body{
     border-style: solid;
     border-width: 37px 0 37px 60px;
 }
-.controls button.pause{
+
+.controls button.pause {
     border-style: double;
     border-width: 0px 0 0px 60px;
 }
