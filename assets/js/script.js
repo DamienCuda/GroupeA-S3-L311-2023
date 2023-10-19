@@ -44,7 +44,7 @@ window.addEventListener("DOMContentLoaded", (event) => {
   function adjustTimer(timer) {
     return timer < 10 ? "0" + timer : timer;
   }
-  // ERREUR : Mauvaise construction de la chaine de carctères. Adaptation de la fonction pour plus de lisibilité
+  // ERREUR : Un argument manquant. Adaptation de la fonction pour plus de lisibilité
   // La fonction récupère trois variables et renvoie un string, construit sur le format rgb(x,y,z).
   // Le calcul utilisé dans l'objet Math et sa propiété .floor sert à renvoyer des valeurs comprise entre 0 et 256
   function randomHexColor(x, y, z) {

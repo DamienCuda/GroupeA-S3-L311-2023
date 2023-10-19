@@ -1,6 +1,8 @@
 <!-- ETAPE DE DEBUG -->
 <!-- 1 CTRL+U : Reformatage du code HTML cf commentaire-->
-<!-- 2 Réseau : appel CSS et Google Font érronés-->
+<!-- 2 Réseau : Vérification erruer réseaux, appel CSS et Google Font érronés-->
+<!-- 3 CSS : Reformatage CSS-->
+<!-- 4 JS : Correction BUG JS-->
 <!DOCTYPE html>
 <html>
     <head>
