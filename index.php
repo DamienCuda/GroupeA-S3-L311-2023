@@ -1,18 +1,17 @@
 <!-- ETAPE DE DEBUG -->
-<!-- 1 CTRL+U : Reformatage du code HTML cf commentaire-->
-<!-- 2 Réseau : Vérification erruer réseaux, appel CSS et Google Font érronés-->
+<!-- 1 CTRL+U : Reformatage du code HTML cf. commentaire-->
+<!-- 2 Réseau : Vérification erreurs réseaux, appel CSS et Google Font érronés-->
 <!-- 3 CSS : Reformatage CSS-->
 <!-- 4 JS : Correction BUG JS-->
+
 <!DOCTYPE html>
-<html>
+<html lang="fr">
     <head>
         <meta charset="utf-8">
         <!--Balise Title non fermée -->
         <title>Timetitle</title>
         <!-- Appel Google font erroné -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Aldrich&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css?family=Aldrich" rel="stylesheet">
         <!-- Coquille appel dossier css -->
         <link rel="stylesheet" href="assets/css/style.css">
         <script src="assets/js/script.js"></script>
