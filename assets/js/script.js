@@ -47,7 +47,7 @@ window.addEventListener("DOMContentLoaded", (event) => {
   }
   // ERREUR : Un argument manquant. Adaptation de la fonction pour plus de lisibilité
   // La fonction récupère trois variables et renvoie un string, construit sur le format rgb(x,y,z).
-  // Le calcul utilisé dans l'objet Math et sa propiété .floor sert à renvoyer des valeurs comprise entre 0 et 256
+  // Le calcul utilisé dans l'objet Math et sa propriété .floor sert à renvoyer des valeurs comprise entre 0 et 256
   function randomHexColor(x, y, z) {
     r = Math.floor((x / 100) * 256) 
     g = Math.floor((y / 100) * 256) 
