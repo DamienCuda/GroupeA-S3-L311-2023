@@ -9,7 +9,7 @@
     <head>
         <meta charset="utf-8">
         <!--Balise Title non fermée -->
-        <title>Timetitle</title>
+        <title>Time</title>
         <!-- Appel Google font erroné -->
         <link href="https://fonts.googleapis.com/css?family=Aldrich" rel="stylesheet">
         <!-- Coquille appel dossier css -->
